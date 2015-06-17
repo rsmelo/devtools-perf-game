@@ -285,7 +285,6 @@ ENGINE.Ship.prototype = {
       Utils.moveInDirection.call(this, this.forceDirection, this.force * dt);
 
     }
-
   },
 
   canFire: function() {
